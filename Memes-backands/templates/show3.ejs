@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <% for(var i=0; i<array.length; i++) {%>
+
+        <video width="320" height="240" controls>
+            <source src=<%=array[i]%> type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+     <% } %>
+
+</body>
+</html>
